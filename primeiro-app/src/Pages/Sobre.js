@@ -18,6 +18,7 @@ import React, { useState } from 'react'
 //     )
 // }
 
+//2º MANEIRA
 const Sobre = () => {
     const [form, setForm] = useState({
         nome: "João",
