@@ -1,24 +1,35 @@
 body {
-  background-color: #000;
-}
+  background-color: #000; }
 
 h1 {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 p {
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 li {
   font-size: 25px;
-  color: #ffffff;
-}
+  color: #ffffff; }
 
 .aberto {
-  background-color: green;
-}
+  background-color: green; }
 
 .fechado {
-  background-color: red;
-}
+  background-color: red; }
+
+.btn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 200px;
+  height: auto;
+  font-size: 30px; }
+
+a {
+  color: #ffffff; }
+
+label {
+  display: block;
+  color: #ffffff;
+  padding: 20px; }

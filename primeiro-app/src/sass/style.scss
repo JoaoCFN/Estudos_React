@@ -17,3 +17,21 @@ li{
 .fechado{
     background-color: red;
 }
+
+.btn{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 200px;
+    height: auto;
+    font-size: 30px;   
+}
+a{
+    color: #ffffff;
+}
+label{
+    display: block;
+    color: #ffffff;
+    padding: 20px;
+}
