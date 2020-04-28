@@ -1,23 +1,15 @@
-import React from 'react';
-import './App.css';
+import React, { useState } from 'react';
+import './App.css'
 
 function App() {
+  const [color, Setcolor] = useState("#000000");
+  document.body.style.backgroundColor = color;
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <button className = "btn btn-black">Black</button>
+      <button className = "btn btn-blue">Blue</button>
+      <button className = "btn btn-green">Greeen</button>
     </div>
   );
 }
