@@ -3,6 +3,7 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  text-align: center;
 }
 .btn{
   padding: 8px;
@@ -27,4 +28,10 @@
   border-color: #fff;
   border-width: 1px;
   outline: none;
+}
+.titulo{
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
 }
